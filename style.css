@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2947;
+    overflow-x: hidden;
+}
+
+#particles-js{
+    background: #00052a;
+    height: 400px;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    font-size: 40px;
+    font-family: 'Baloo 2', cursive;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.arm{
+    position:absolute;
+    top: 70px;
+    right: -200px;
+    transform: translateX(100%);
+}
+
+li {
+  display: inline;
+  padding-left: 100px;
+  font-family: 'Baloo 2', cursive;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 60px;
+  right: 150px;
+  font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+
+#cta{
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #1f2947;
+    border-style: solid;
+    border-color: #21b3db;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 430px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#cta:hover{
+     background-color: #21b3db;
+}
+
+h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+h3{
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+#arrow{
+    position: absolute;
+    left: 140px;
+    bottom: 20px;
+    transform: rotate(90deg);
+}
+
+#benefit1{
+    position: absolute;
+    left: 270px;
+    top: 500px;
+}
+
+#benefit1-img{
+    position: absolute;
+    left: 10px;
+    top: 600px;
+}
+
+#copy1{
+    position: absolute;
+    left: 600px;
+    top: 700px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#benefit2{
+    position: absolute;
+    left:380px;
+    top: 1000px;
+}
+
+#benefit2-img{
+    position: absolute;
+    left: 10px;
+    top: 1100px;
+}
+
+#copy2{
+    position: absolute;
+    left: 600px;
+    top: 1200px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#cost{
+    position: absolute;
+    left:380px;
+    top: 1500px;
+}
+
+
+input{
+    display: block;
+    width: 170px;
+    height: 20px;
+    margin: 30px;
+}
+
+textarea{
+    resize: none;
+    width: 170px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#send{
+    border-radius: 50px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #1f2947;
+    border-style: solid;
+    border-color: #21b3db;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#send:hover{
+     background-color: #21b3db;
+}
+
+form{
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+}
+
+#contact-copy{
+    position: absolute;
+    left: 400px;
+    top: 1600px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#afiliate-copy{
+    position: absolute;
+    left: 400px;
+    top: 1730px;
+    font-size: 22px;
+    text-align: center;
+}
+
+span{
+    color: #21b3db;
+    font-size: 23px;
+}
+
+label{
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+    color: white;
+}
+
+#email-label{
+    position: absolute;
+    top: 5px;
+    left: 32px;
+}
+
+#name-label{
+    position: absolute;
+    top: 60px;
+    left: 32px;
+}
+
+#message-label{
+    position: absolute;
+    top: 117px;
+    left: 32px;
+}
+
+#status{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: green;
+    position: absolute;
+    top: 1530px;
+    left: 110px;
+    display: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background-color: #1f2947;
+    border-style: solid;
+    border-color: #21b3db;
+    border-radius: 40px;
+}
+
+
+
