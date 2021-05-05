@@ -1,3 +1,3 @@
 <?php
-echo("hejka");
+include_once("index.html");
 ?>
